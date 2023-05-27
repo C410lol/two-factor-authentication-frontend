@@ -12,7 +12,7 @@ create_button.addEventListener('click', event => {
     const phone = phone_input.value.trim().replace(/\s/g, '')
     const password = password_input.value.trim().replace(/\s/g, '')
     const confirm_password = confirm_password_input.value.trim().replace(/\s/g, '')
-    if(verifyName(username) && 
+    if(verifyUserame(username) && 
     verifyEmail(email) && 
     verifyPassword(password) && 
     confirmPassword(password, confirm_password)) {
@@ -44,8 +44,8 @@ async function createUser(email, password, username) {
     }
 }
 
-function verifyName(name) {
-    if(name.length >= 3 && name.length <= 50) {
+function verifyUserame(username) {
+    if(username.length >= 3 && username.length <= 50) {
         return true
     }
     console.log('HEY')
