@@ -1,0 +1,187 @@
+body {
+    background-color: #000000ec;
+    margin: 0px;
+}
+
+* {
+    font-family: "Roboto Condensed";
+}
+
+#header {
+    height: 125px;
+    width: auto;
+    padding: 1px;
+    background-color: #1b1b1bef;
+    display: flex;
+    align-items: center;
+}
+
+#home_txt {
+    font-size: 40px;
+    color: #fffffff8;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#username_log_out_container {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.header_txts {
+    text-align: center;
+    cursor: pointer;
+}
+
+#username_txt {
+    color: #fffffff8;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#log_out_txt {
+    color: #A52A2A;
+    font-size: medium;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+
+#box {
+    height: 541px;
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+#img_and_more_container {
+    background-color: #1b1b1bef;
+    border: 1px solid #000000ec;
+}
+
+#user_img_container {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.more_txts {
+    font-size: 23px;
+    text-align: center;
+}
+
+#edit_txt {
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+#delete_txt {
+    color: #A52A2A;
+    cursor: pointer;
+}
+
+#user_info_container {
+    display: grid;
+    align-items: center;
+    padding: 50px;
+}
+
+.user_fields {
+    width: auto;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #1b1b1bef;
+    border-radius: 5px;
+}
+
+.field_titles {
+    font-weight: bold;
+}
+
+.user_fields p {
+    margin-left: 15px;
+    font-size: medium;
+    color: #fffffff8;
+}
+
+#p_out_delete {
+    border-radius: 5px;
+    padding: 20px;
+    background: #fffffff8;
+}
+
+#p_out_delete h3 {
+    margin-bottom: 1px;
+}
+
+.p_out_btns_container {
+    display: flex;
+    justify-content: right;
+}
+
+.p_out_btns {
+    width: 75px;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#p_out_edit_back_btn, #p_out_delete_back_btn {
+    background: #6fbbd3;
+}
+
+#p_out_confirm_btn {
+    background: #4ee44e;
+}
+
+#p_out_delete_btn {
+    background: #ff726f;
+}
+
+#p_out_edit_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.p_out_field {
+    width: 450px;
+    height: 40px;
+    background-color: #c2c2c2c4;
+    border: 2px solid #c2c2c2c4;
+    color: #1b1b1bef;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#status_box {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+#status_text {
+    color: #1b1b1bef;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+    <script src="user.js" defer></script>
+    <title>Me</title>
+</head>
+<body>
+    <dialog id="p_out_edit">
+        <h3>EDIT ACCOUNT</h3>
+        <hr/>
+        <div id="status_box"></div>
+        <form id="p_out_edit_form">
+            <input id="p_out_username_input" class="p_out_field" type="text" placeholder="New Username">
+            <input id="p_out_email_input" class="p_out_field" type="email" placeholder="New email">
+            <input id="p_out_password_input" class="p_out_field" type="password" placeholder="New password">
+            <input id="p_out_conf_password_input" class="p_out_field" type="password" placeholder="Confirm password">
+        </form>
+        <div class="p_out_btns_container">
+            <button id="p_out_edit_back_btn" class="p_out_btns">Back</button>
+            <button id="p_out_confirm_btn" class="p_out_btns">Confirm</button>
+        </div>
+    </dialog>
+    <dialog id="p_out_delete">
+        <h3>DELETE ACCOUNT</h3>
+        <hr/>
+        <div id="status_box"></div>
+        <p>Are you sure you wanna delete your account? There's no way back!</p>
+        <div class="p_out_btns_container"> 
+            <button id="p_out_delete_back_btn" class="p_out_btns">Back</button>
+            <button id="p_out_delete_btn" class="p_out_btns">Delete</button>
+        </div>
+    </dialog>
+    <div id="header">
+        <h1 id="home_txt">Home</h1>
+        <div id="username_log_out_container">
+            <p id="username_txt" class="header_txts">Login/Create</p>
+            <p id="log_out_txt" class="header_txts">Log out</p>
+        </div>
+    </div>
+    <div id="box">
+        <div id="img_and_more_container">
+            <div id="user_img_container">
+                <img id="user_img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+            </div>
+            <h3 id="edit_txt" class="more_txts">Edit User</h3>
+            <h3 id="delete_txt" class="more_txts">Delete User</h3>
+        </div>
+        <div id="user_info_container">
+            <div class="user_fields">
+                <p class="field_titles">UUID:</p>
+                <p id="user_uuid">-</p>
+            </div>
+            <div class="user_fields">
+                <p class="field_titles">Username:</p>
+                <p id="user_username">-</p>
+            </div>
+            <div class="user_fields">
+                <p class="field_titles">Email:</p>
+                <p id="user_email">-</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
