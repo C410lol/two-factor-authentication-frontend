@@ -1,0 +1,86 @@
+body {
+    background-color: #000000ec;
+    padding-bottom: 100px;
+    margin: 0px;
+}
+
+* {
+    font-family: "Roboto Condensed";
+}
+
+#header {
+    height: 125px;
+    width: auto;
+    padding: 1px;
+    background-color: #1b1b1bef;
+    display: flex;
+    align-items: center;
+}
+
+#home_txt {
+    font-size: 40px;
+    color: #fffffff8;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#username_log_out_container {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.header_txts {
+    text-align: center;
+    cursor: pointer;
+}
+
+#username_txt {
+    color: #fffffff8;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#log_out_txt {
+    color: #A52A2A;
+    font-size: medium;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+
+#users_container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#users_container div {
+    width: 350px;
+    background-color: #1b1b1bef;
+    margin: 5px;
+    padding: 20px;
+    color: #fffffff8;
+    display: block;
+}
+
+#users_container div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 75px;
+}
+
+#login_to_see_txt {
+    text-align: center;
+    color: #535353ef;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+#users_container p {
+    text-align: center;
+    font-size: 75%;
+}
